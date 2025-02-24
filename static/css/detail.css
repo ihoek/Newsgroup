@@ -1,0 +1,127 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.container_wrap {
+  flex: 1; /* 남은 공간을 차지하여 footer를 바닥에 고정 */
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.main_book_title {
+  font-size: 50px;
+  margin: 70px auto 20px auto;
+}
+.main_img {
+  display: flex;
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  margin: 0px auto;
+}
+
+.imgstyle {
+  width: 100%;
+  height: 100%;
+}
+
+.container_header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  border-bottom: 1px solid rgb(84, 84, 84);
+  /* background-color: #ffa366; */
+  z-index: 1000;
+}
+.header_right {
+  display: flex;
+  gap: 50px;
+}
+.logo {
+  display: flex;
+  margin: auto;
+  width: 100px;
+  height: 50px;
+}
+
+/* main */
+.container_main {
+  display: flex;
+  width: 100%;
+}
+
+.main_side {
+  position: fixed;
+  top: 50%; /* 화면의 세로 중앙 */
+  left: 20%; /* 왼쪽에서 20px 떨어진 위치 */
+  transform: translateY(-50%); /* 세로 중앙 정렬 */
+  display: flex;
+  flex-direction: column;
+}
+
+.main_book {
+  width: 35px;
+  height: 35px;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+.main_printer {
+  width: 35px;
+  height: 35px;
+  margin-left: auto;
+}
+.main_main {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+}
+.container_footer {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 150px;
+  border-top: 2px solid rgb(160, 161, 157);
+  /* background-color: rgb(160, 161, 157); */
+  position: relative; /* 기본적으로 문서 흐름에 따라 배치 */
+  bottom: 0;
+}
+
+.footer_logo {
+  width: 170px;
+  padding: 20px;
+}
+.footer_text {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-size: 12px;
+}
+
+/* footer를 항상 하단에 유지 */
+.container_footer {
+  margin-top: auto; /* 남은 공간을 모두 위로 밀고 footer를 하단에 유지 */
+}
+.main_book_comment {
+  width: 50%;
+  margin: 50px auto 50px auto;
+}

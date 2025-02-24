@@ -1,0 +1,156 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.container_wrap {
+  flex: 1;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.main_book_title {
+  display: flex;
+  margin: 10px auto;
+}
+.main_img {
+  display: flex;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  margin: 0px auto;
+  margin-top: 100px;
+}
+.main_book {
+  width: 25px;
+  height: 25px;
+}
+
+.imgstyle {
+  width: 100%;
+  height: 100%;
+}
+
+.container_header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  border-bottom: 1px solid rgb(84, 84, 84);
+  z-index: 1000;
+}
+.header_right {
+  display: flex;
+  gap: 50px;
+}
+.logo {
+  display: flex;
+  margin: auto;
+  width: 100px;
+  height: 50px;
+}
+
+.container_footer {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 150px;
+  border-top: 2px solid rgb(160, 161, 157);
+
+  position: relative;
+  bottom: 0;
+}
+
+.footer_logo {
+  width: 170px;
+  padding: 20px;
+}
+.footer_text {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-size: 12px;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* footer를 항상 하단에 유지 */
+.container_footer {
+  margin-top: auto; /* 남은 공간을 모두 위로 밀고 footer를 하단에 유지 */
+}
+.main_book_comment {
+  margin-bottom: 50px;
+}
+.container_main {
+  display: flex;
+  flex-wrap: wrap; /* 카드가 넘칠 경우 다음 줄로 이동 */
+  gap: 10px; /* 카드 간 간격 */
+  padding: 10px;
+  width: 100%;
+  margin: 50px auto 0px auto;
+}
+
+.main_table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.main_table th,
+.main_table td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin: auto 0px;
+  border: 1px solid rgb(84, 84, 84);
+}
+
+.table_header_img {
+  width: 20%;
+  height: 20px;
+  background-color: #ddd;
+}
+.table_header_title {
+  width: 20%;
+  height: 20px;
+  background-color: #ddd;
+}
+.table_header_comment {
+  width: 35%;
+  height: 20px;
+  background-color: #ddd;
+}
+.table_header_mana {
+  width: 5%;
+  height: 20px;
+  background-color: #ddd;
+}
+
+.deltebtn {
+  background-color: rgb(232, 236, 229);
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.table_img {
+  width: 100%;
+  height: 100%;
+}
+.table_img_style {
+  width: 200px;
+}

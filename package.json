@@ -1,0 +1,31 @@
+{
+  "name": "newspaper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihoek/NewsPaper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ihoek/NewsPaper/issues"
+  },
+  "homepage": "https://github.com/ihoek/NewsPaper#readme",
+  "description": "",
+  "dependencies": {
+    "@toast-ui/editor": "^3.2.2",
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "express-generator": "^4.16.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.12.0",
+    "request": "^2.88.2"
+  }
+}
