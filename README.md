@@ -1,4 +1,4 @@
-# 📖New Group
+# 📖News Group
 ## ✅프로젝트 소개
 <div>Bookstore 프로젝트에서는 localstorage를 사용하였고, 이번 프로젝트에서는 axios와 mySQL를 사용하여 백엔드를 구축하고 DB에서 값을 가져오는 연습을 하고자 하였다.</div>
 <div>해당 프로젝트에서는 Manager페이지에서 입력한 값을 Index페이지에 띄워 사용자가 해당 아이템을 선택하고 북마크 기능을 통해 해당 아이템만 확인할 수 있도록 하였다.</div>
