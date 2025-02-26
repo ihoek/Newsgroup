@@ -213,3 +213,72 @@ body {
   cursor: pointer;
   z-index: 1000; /* 다른 요소 위에 표시되도록 설정 */
 }
+
+/* 모바일 (최대 768px) */
+@media screen and (max-width: 768px) {
+  .container_header {
+    height: 60px;
+    padding: 0 10px;
+  }
+
+  .header_right {
+    gap: 20px;
+  }
+
+  .main_card {
+    flex-basis: calc(50% - 20px); /* 한 줄에 2개 */
+    max-width: calc(50% - 20px);
+    height: 250px;
+  }
+
+  .main_right {
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+  }
+
+  .input_submit_title {
+    width: 100%;
+  }
+
+  .container_footer {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+/* 태블릿 (769px ~ 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container_header {
+    height: 65px;
+  }
+
+  .main_card {
+    flex-basis: calc(33.33% - 20px); /* 한 줄에 3개 */
+    max-width: calc(33.33% - 20px);
+    height: 280px;
+  }
+
+  .main_right {
+    width: 100%;
+    height: 400px;
+  }
+
+  .input_submit_title {
+    width: 80%;
+  }
+
+  .container_footer {
+    height: 120px;
+  }
+}
+
+/* 데스크톱 (1025px 이상) */
+@media screen and (min-width: 1025px) {
+  .main_card {
+    flex-basis: calc(20% - 20px); /* 한 줄에 5개 */
+    max-width: calc(20% - 20px);
+  }
+}

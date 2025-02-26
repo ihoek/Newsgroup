@@ -125,3 +125,53 @@ body {
   width: 50%;
   margin: 50px auto 50px auto;
 }
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .main_book_title {
+    font-size: 30px; /* 모바일에서 제목 크기 줄이기 */
+    margin-top: 40px;
+  }
+
+  .main_main {
+    width: 100%; /* 모바일에서 전체 너비 사용 */
+    padding: 0 15px;
+  }
+
+  .container_footer {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+  .footer_logo {
+    width: 140px;
+    padding: 10px;
+  }
+  .footer_text {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main_book_title {
+    font-size: 24px;
+  }
+  .main_img {
+    width: 90%;
+  }
+  .main_book_comment {
+    width: 90%;
+    margin: 30px auto;
+  }
+  .main_side {
+    position: fixed;
+    top: 90%; /* 화면의 세로 중앙 */
+    left: 5px; /* 왼쪽에서 20px 떨어진 위치 */
+    transform: translateY(-50%); /* 세로 중앙 정렬 */
+    display: flex;
+    flex-direction: column;
+  }
+}
