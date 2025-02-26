@@ -1,8 +1,10 @@
 const express = require("express");
 const router = express.Router();
 const mainController = require("../Controller/mainController");
-
+require("dotenv").config();
 //네이버 검색 api
+client_id = process.env.naver_key;
+client_secret = process.env.naver_secret;
 
 router.get("/", mainController.getAlldata);
 router.get("/search/news", async function (req, res) {
